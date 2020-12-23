@@ -1,6 +1,6 @@
 # p300 Speller Project 
 
-This project has been developed during the Neuroengineering course at Politecnico di Milano. The data comes from the BCI competition III, Dataset II based on two subjects. The data is in .mat format. The aim of the project was to investigate if a subset of electrodes could still have acceptable accuracy in the detection of P300 events. 
+This project has been developed during the Neuroengineering course at Politecnico di Milano. The data comes from the BCI competition III, Dataset II based on two subjects. The data is in .mat format. The aim of the project was to investigate if a subset of electrodes could still have acceptable accuracy in the detection of P300 events. For any issue or curiosity about the code do not hesitate to contact us. 
 
 ## Abstract
 In the preprocessing step, we first divided the signal in windows of 667ms, then filtered the signal using an 8th order bandpass Butterworth filter (with cutoff frequencies of 0.1 and 20), and lastly we extracted the average p300 and no p300 epochs, in order to visualize the pattern. 
@@ -14,7 +14,7 @@ The electrode subset analysis, which was our group specific task, allows to redu
 In order to analyze the electrode importance, we used the Leave One Feature Out method, which calculates the importance of a channel based on accuracy by iteratively removing a channel from the set. We were able to confirm, by comparing the data with other papers in the literature, that the parietal zone, and in particular the occipital and parietal electrodes, were the most activated ones. 
 
 ## Acknowledgments
-The project was developed in a team of 5 MSc students: Veronika Guleva, Elena Puddu, Cristian Drudi, Alessandro Gozzi and I, Stefano Magni. Special thanks goes to the professor Cerveri and Pedrocchi who proposed this very interesting topic and our tutor Davide Marzorati who helped us in the most challenging parts. 
+The project was developed in a team of 5 MSc students: Veronika Guleva, Elena Puddu, Cristian Drudi, Alessandro Gozzi and I, Stefano Magni. Special thanks goes to professors Cerveri and Pedrocchi who proposed this very interesting topic and our tutor Davide Marzorati who helped us in the most challenging parts. 
 
-For any issue or curiosity about the code do not hesitate to contact us. 
-
+## Reference to the original paper 
+Liu, Mingfei & Wu, Wei & Gu, Zhenghui & Yu, Zhuliang & Qi, FeiFei & Li, Yuanqing. (2017). Deep Learning Based on Batch Normalization for P300 Signal Detection. Neurocomputing. 275. 10.1016/j.neucom.2017.08.039. 
