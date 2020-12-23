@@ -2,6 +2,9 @@
 
 This project has been developed during the Neuroengineering course at Politecnico di Milano. The data comes from the BCI competition III, Dataset II based on two subjects (http://www.bci2000.org). The data is in .mat format. The aim of the project was to investigate if a subset of electrodes could still have acceptable accuracy in the detection of P300 events. For any issue or curiosity about the code do not hesitate to contact us. 
 
+## Topoplot python function 
+Inside the code the topoplot function originally implemented in matlab has been brought to python with major changes so to allow the plotting of the position of some selected electrodes. 
+
 ## Abstract
 In the preprocessing step, we first divided the signal in windows of 667ms, then filtered the signal using an 8th order bandpass Butterworth filter (with cutoff frequencies of 0.1 and 20), and lastly we extracted the average p300 and no p300 epochs, in order to visualize the pattern. 
 
