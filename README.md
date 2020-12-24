@@ -4,7 +4,7 @@ This project has been developed during the Neuroengineering course at Politecnic
 
 ## Topoplot python function 
 Inside the code the topoplot function originally implemented in matlab has been brought to python with major changes so to allow the plotting of the position of some selected electrodes. 
-![alt text] Unknown-11.png
+![alt text](https://github.com/Stefano97/p300speller/blob/main/Unknown-11.png?raw=true) 
 
 ## Abstract
 In the preprocessing step, we first divided the signal in windows of 667ms, then filtered the signal using an 8th order bandpass Butterworth filter (with cutoff frequencies of 0.1 and 20), and lastly we extracted the average p300 and no p300 epochs, in order to visualize the pattern. 
